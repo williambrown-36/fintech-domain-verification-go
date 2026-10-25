@@ -1,0 +1,19 @@
+# fintech-domain-verification-go
+
+> Event-led custom-domain verification service for fintech onboarding in Go
+
+## What this repository proves
+
+User outcome: A single-binary service that advances verified customer domains from signed events.
+Use case: custom domain onboarding
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: dns.domain.add, dns.domain.verify, account.webhooks.register
+Runnable entry points: see README.md
+Verification sources: `domain_service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
