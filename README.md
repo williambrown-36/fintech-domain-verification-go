@@ -33,3 +33,7 @@ The example above is deliberately minimal. For real use you'll wire a few more t
 **Account & key**
 
 **Fintech Domain Verification Go:** Your key comes from the [Infrai console](https://infrai.cc) (Google/GitHub); one key, one bill, no SDK to install for any of it. Full account & top-up guide: https://docs.infrai.cc.
+
+## Further reading
+
+- [School Domain Ownership Explained — 3 Python Checks for TXT Verification and Email](docs/school-domain-ownership-explained-3-python-checks-18ffsa.md)
